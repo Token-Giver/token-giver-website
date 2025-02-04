@@ -75,3 +75,36 @@ export const partners = [
     position: "top-[227px] left-[290px]",
   },
 ];
+
+export const faqs = [
+  {
+    question: "What is Token Giver?",
+    answer:
+      "Token Giver is a decentralized application designed to revolutionize charity and fundraising. With Token Giver, users can create and manage campaigns by minting unique campaign NFTs, which have Token Bound Accounts (TBA) deployed on them automatically.",
+    index: 1,
+  },
+  {
+    question: "How do NFTs work in fundraising?",
+    answer:
+      "Token Giver is a decentralized application designed to revolutionize charity and fundraising. With Token Giver, users can create and manage campaigns by minting unique campaign NFTs, which have Token Bound Accounts (TBA) deployed on them automatically.",
+    index: 2,
+  },
+  {
+    question: "What are Token Bound Accounts (TBAs)?",
+    answer:
+      "Token Giver is a decentralized application designed to revolutionize charity and fundraising. With Token Giver, users can create and manage campaigns by minting unique campaign NFTs, which have Token Bound Accounts (TBA) deployed on them automatically.",
+    index: 3,
+  },
+  {
+    question: "Is my donation safe?",
+    answer:
+      "Token Giver is a decentralized application designed to revolutionize charity and fundraising. With Token Giver, users can create and manage campaigns by minting unique campaign NFTs, which have Token Bound Accounts (TBA) deployed on them automatically.",
+    index: 4,
+  },
+  {
+    question: "Can I support multiple causes?",
+    answer:
+      "Token Giver is a decentralized application designed to revolutionize charity and fundraising. With Token Giver, users can create and manage campaigns by minting unique campaign NFTs, which have Token Bound Accounts (TBA) deployed on them automatically.",
+    index: 5,
+  },
+];

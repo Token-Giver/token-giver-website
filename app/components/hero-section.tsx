@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./navbar";
+import Navbar from "./ui/navbar";
 import PlayIcon from "../svg/PlayIcon";
 import { ArrowRight, Minus } from "lucide-react";
 import ArrowBrokenIcon from "../svg/ArrowBrokenIcon";

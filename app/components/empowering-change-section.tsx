@@ -1,6 +1,6 @@
 import React from "react";
 import { howToSteps } from "../utils/data";
-import HowToCard from "./how-to-card";
+import HowToCard from "./ui/how-to-card";
 
 function EmpoweringChangeSection() {
   return (
@@ -20,7 +20,7 @@ function EmpoweringChangeSection() {
       </div>
 
       {howToSteps.map((step) => (
-        <HowToCard howTo={step} />
+        <HowToCard howTo={step} key={step.index} />
       ))}
 
       <img
