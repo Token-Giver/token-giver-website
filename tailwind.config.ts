@@ -7,10 +7,16 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      sans: ["Poppins", "sans-serif"],
+      montserrat: ["Montserrat", "sans-serif"],
+      AgrandirBold: ["AgrandirBold", "sans-serif"],
+      AgrandirRegular: ["AgrandirRegular", "sans-serif"],
+    },
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#00594C",
+        ash: "#8E9BAE",
       },
     },
   },
