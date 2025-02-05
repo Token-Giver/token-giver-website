@@ -23,7 +23,7 @@ function StatsAndPartners() {
       {partners.map((partner) => (
         <img
           src={partner.logo}
-          className={`absolute ${partner.position} w-[100px] h-[100px]`}
+          className={`absolute ${partner.position} w-[70px] h-[70px]`}
         />
       ))}
     </div>

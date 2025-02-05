@@ -18,6 +18,9 @@ export default {
         primary: "#00594C",
         ash: "#8E9BAE",
       },
+      backgroundImage: {
+        heroBg: "url('/hero-bg.png')",
+      },
     },
   },
   plugins: [],

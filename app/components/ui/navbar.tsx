@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="py-3 px-[100px] flex justify-between items-center">
+    <div className="py-3 px-[100px] flex justify-between items-center bg-white">
       <img src="/logo.svg" alt="" />
       <div className="flex items-center gap-x-[54px]">
         <div></div>

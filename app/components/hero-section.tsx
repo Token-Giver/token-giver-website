@@ -6,12 +6,12 @@ import ArrowBrokenIcon from "../svg/ArrowBrokenIcon";
 
 function HeroSection() {
   return (
-    <div className="bg-[#D9D9D9] pt-[234px] pb-[224px] text-center relative flex justify-center">
+    <div className="pt-[203px] pb-[144px] text-center relative flex justify-center">
       <div className="absolute top-0 left-0 w-full">
         <Navbar />
       </div>
       <div className="flex flex-col items-center max-w-[691px]">
-        <button className="flex items-center text-primary gap-x-[10px] text-lg leading-[35px] font-semibold bg-white bg-opacity-20 py-[10.5px] px-[23px] rounded-full">
+        <button className="flex items-center text-primary gap-x-[10px] text-lg leading-[35px] font-semibold bg-white bg-opacity-20 hover:bg-opacity-100 py-[10.5px] px-[23px] rounded-full transition-all duration-300 ease-in-out">
           <PlayIcon />
           Introduction to TokenGiver Funding
           <span className="text-base font-medium font-montserrat">
@@ -20,10 +20,10 @@ function HeroSection() {
           <ArrowBrokenIcon />
         </button>
 
-        <h1 className="text-[60px] leading-[95px] font-bold text-primary my-[30px] tracking-[2%] w-full font-AgrandirBold">
+        <h1 className="text-[60px] leading-[95px] font-bold text-white my-[30px] tracking-[2%] w-full font-AgrandirBold">
           Redefining Giving with Blockchain Innovation
         </h1>
-        <p className="text-lg leading-[35px] font-medium text-primary mb-[50px]">
+        <p className="text-lg leading-[35px] font-medium text-white mb-[50px]">
           we're revolutionizing the way fundraising works.
         </p>
         <div className="flex gap-x-[14px] items-center text-base font-semibold">

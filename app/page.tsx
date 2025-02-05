@@ -14,8 +14,10 @@ import Footer from "./components/ui/footer";
 export default function Home() {
   return (
     <div>
-      <JoinWaitlist />
-      <HeroSection />
+      <div className="bg-heroBg bg-cover h-[110vh] bg-center">
+        <JoinWaitlist />
+        <HeroSection />
+      </div>
       <EmpoweringChangeSection />
       <StatsAndPartners />
       <MakeADifferenceSection />
