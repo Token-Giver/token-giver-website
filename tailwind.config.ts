@@ -20,6 +20,7 @@ export default {
         jade: "#34AA6D",
         "raisin-black": "#282828",
         jonquil: "#FED12E",
+        "dark-grey": "#55534E",
       },
       backgroundImage: {
         heroBg: "url('/hero-bg.png')",
