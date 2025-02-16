@@ -18,7 +18,7 @@ function MakeADifferenceSection() {
               <img src="/box.svg" alt="" />
             </div>
             <div className="font-medium max-w-[420px]">
-              <h4 className="text-lg leading-8 text-[#282828] mb-[10px]">
+              <h4 className="text-lg leading-8 text-raisin-black mb-[10px]">
                 Blockchain Transparency
               </h4>
               <p className="text-ash text-sm leading-[25px]">
@@ -32,7 +32,7 @@ function MakeADifferenceSection() {
               <img src="/users.svg" alt="" />
             </div>
             <div className="font-medium max-w-[420px]">
-              <h4 className="text-lg leading-8 text-[#282828] mb-[10px]">
+              <h4 className="text-lg leading-8 text-raisin-black mb-[10px]">
                 Global Reach
               </h4>
               <p className="text-ash text-sm leading-[25px]">
@@ -46,7 +46,7 @@ function MakeADifferenceSection() {
               <img src="/padlock.svg" alt="" />
             </div>
             <div className="font-medium max-w-[420px]">
-              <h4 className="text-lg leading-8 text-[#282828] mb-[10px]">
+              <h4 className="text-lg leading-8 text-raisin-black mb-[10px]">
                 Secure Transactions
               </h4>
               <p className="text-ash text-sm leading-[25px]">
@@ -60,7 +60,7 @@ function MakeADifferenceSection() {
               <img src="/gift.svg" alt="" />
             </div>
             <div className="font-medium max-w-[420px]">
-              <h4 className="text-lg leading-8 text-[#282828] mb-[10px]">
+              <h4 className="text-lg leading-8 text-raisin-black mb-[10px]">
                 Innovative Giving
               </h4>
               <p className="text-ash text-sm leading-[25px]">

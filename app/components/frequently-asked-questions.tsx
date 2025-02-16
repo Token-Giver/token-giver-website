@@ -4,7 +4,7 @@ import { faqs } from "../utils/data";
 function FrequentlyAskedQuestions() {
   return (
     <div className="py-[80px] px-[100px]">
-      <h2 className="text-[#282828] font-AgrandirBold text-[40px] leading-[60px] text-center mb-[30px]">
+      <h2 className="text-raisin-black font-AgrandirBold text-[40px] leading-[60px] text-center mb-[30px]">
         Frequently <span className="font-AgrandirRegular">Asked</span> Questions
       </h2>
       <p className="text-ash text-base leading-8 font-medium max-w-[925px] mx-auto text-center">

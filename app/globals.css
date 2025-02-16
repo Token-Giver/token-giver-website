@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  transition: all 0.4s ease-in-out;
+}
+
 @font-face {
   font-family: AgrandirBold;
   src: url("/fonts/Agrandir-TextBold.otf");

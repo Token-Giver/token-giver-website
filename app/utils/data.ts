@@ -108,3 +108,34 @@ export const faqs = [
     index: 5,
   },
 ];
+
+export const campaignThemes = [
+  {
+    name: "arts-crafts",
+    label: "Arts & Crafts",
+  },
+  {
+    name: "comics",
+    label: "Comics",
+  },
+  {
+    name: "community",
+    label: "Community",
+  },
+  {
+    name: "design",
+    label: "Design",
+  },
+  {
+    name: "fashion",
+    label: "Fashion",
+  },
+  {
+    name: "food",
+    label: "Food",
+  },
+  {
+    name: "film",
+    label: "Film",
+  },
+];

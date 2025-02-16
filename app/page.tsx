@@ -10,23 +10,21 @@ import BlogSection from "./components/blog-section";
 import FrequentlyAskedQuestions from "./components/frequently-asked-questions";
 import NewsLetter from "./components/newsletter";
 import Footer from "./components/ui/footer";
+import ExploreVerifiedCampaigns from "./components/explore-verified-campaigns";
 
 export default function Home() {
   return (
-    <div>
-      <div className="bg-heroBg bg-cover h-[110vh] bg-center">
-        <JoinWaitlist />
-        <HeroSection />
-      </div>
+    <>
+      <HeroSection />
       <EmpoweringChangeSection />
       <StatsAndPartners />
+      <ExploreVerifiedCampaigns />
       <MakeADifferenceSection />
       <Testimonials />
       <StartCampaignBanner />
       <BlogSection />
       <FrequentlyAskedQuestions />
       <NewsLetter />
-      <Footer />
-    </div>
+    </>
   );
 }
