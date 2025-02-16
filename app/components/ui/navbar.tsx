@@ -4,10 +4,15 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="px-[100px] flex justify-between items-center bg-white">
-      <img src="/logo.svg" alt="" />
+    <nav className="px-[100px] flex justify-between items-center bg-white">
+      <Link href="/">
+        <img src="/logo.svg" alt="" />
+      </Link>
       <div className="flex items-center gap-x-[258px]">
         <ul className="flex items-center gap-x-10 text-base font-medium leading-5 text-ash">
+          <li>
+            <Link href="/">Home</Link>
+          </li>
           <li>
             <Link href="/" className="flex items-center gap-x-2">
               <SearchIcon />
@@ -30,7 +35,7 @@ function Navbar() {
           </button>
         </div>
       </div>
-    </div>
+    </nav>
   );
 }
 
