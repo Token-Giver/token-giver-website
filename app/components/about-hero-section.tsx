@@ -31,7 +31,11 @@ function AboutHeroSection() {
         </div>
       </div>
       <div className="w-full relative mt-[-12px]">
-        <img src="/about-hero-banner.jpg" className="w-full" alt="" />
+        <img
+          src="/about-hero-banner.jpg"
+          className="w-full rounded-[10px]"
+          alt=""
+        />
         <div className="px-[57px] pt-[42px]">
           <p className="text-lg text-ash leading-[35px] mb-[50px]">
             At TokenGiver, our mission is to revolutionize the world of

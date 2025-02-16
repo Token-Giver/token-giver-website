@@ -2,9 +2,9 @@ import React from "react";
 
 function JoinWaitlist() {
   return (
-    <div className="bg-[#121212] py-3 w-full flex justify-center items-center gap-x-[15px]  text-white">
+    <div className="bg-[#121212] py-3 w-full flex justify-center items-center gap-x-[15px]  text-white text-sm">
       <h3>🚀 Join our waitlist</h3>
-      <button className="py-[2px] px-3 border border-[#FFFFFF] rounded-full">
+      <button className="py-[2px] px-3 border border-[#FFFFFF] rounded-full font-medium">
         Join Now
       </button>
     </div>

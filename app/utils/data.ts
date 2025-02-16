@@ -1,3 +1,5 @@
+import { Step } from "./types";
+
 export const howToSteps = [
   {
     title: "Choose Your Cause",
@@ -137,5 +139,72 @@ export const campaignThemes = [
   {
     name: "film",
     label: "Film",
+  },
+];
+
+export const donorSteps: Step[] = [
+  {
+    id: 0,
+    title: "Search & Explore Campaigns",
+    subtext: "Browse verified campaigns across various categories.",
+    illus: "/steps/donors/step-1.png",
+    points: [
+      "Use filters such as cause type, location, and urgency to find a campaign that resonates with you.",
+      "Review detailed campaign descriptions and updates for transparency.",
+    ],
+  },
+  {
+    id: 1,
+    title: "Make a Secure Donation",
+    subtext: "Contribute to a campaign securely through TokenGiver.",
+    illus: "/steps/donors/step-2.png",
+    points: [
+      "Select the amount you wish to donate.",
+      "Complete the transaction using crypto or fiat payment options.",
+      "Receive a unique NFT as a digital receipt of your donation.",
+    ],
+  },
+  {
+    id: 2,
+    title: "Track & Share Your Impact",
+    subtext: "Stay connected with your chosen campaign.",
+    illus: "/steps/donors/step-3.png",
+    points: [
+      "View updates from the fundraiser through your Token Bound Account (TBA).",
+      "Monitor how your donation is making a difference.",
+    ],
+  },
+];
+export const fundraiserSteps: Step[] = [
+  {
+    id: 0,
+    title: "Set Up Your Campaign",
+    subtext: "Design your fundraising campaign with ease.",
+    illus: "/steps/fundraiser/step-1.png",
+    points: [
+      "Add campaign details such as title, description, target goal, and timeline.",
+      "Upload multimedia assets like images and videos to make your campaign more engaging.",
+      "Select a unique NFT design to represent your campaign and activate your Token Bound Account (TBA).",
+    ],
+  },
+  {
+    id: 1,
+    title: "Promote Your Campaign",
+    subtext: "Share your campaign to reach more donors.",
+    illus: "/steps/fundraiser/step-2.png",
+    points: [
+      "Use the TokenGiver sharing tools to post your campaign on social media, email, and other platforms.",
+      "Engage with the TokenGiver community by featuring your campaign on our trending section.",
+    ],
+  },
+  {
+    id: 2,
+    title: "Receive Donations in Real-Time",
+    subtext: "Start receiving secure and traceable donations.",
+    illus: "/steps/fundraiser/step-3.png",
+    points: [
+      "Each donor receives an NFT confirming their contribution.",
+      "Funds are stored in your TBA and can be accessed or withdrawn securely.",
+    ],
   },
 ];
