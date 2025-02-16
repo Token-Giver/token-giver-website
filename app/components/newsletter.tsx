@@ -4,7 +4,7 @@ function NewsLetter() {
   return (
     <div className="py-[86px] px-[95px] flex justify-between items-center">
       <div className="max-w-[513px]">
-        <h2 className="text-[#282828] font-AgrandirBold text-[40px] leading-[60px] mb-[30px]">
+        <h2 className="text-raisin-black font-AgrandirBold text-[40px] leading-[60px] mb-[30px]">
           Stay <span className="font-AgrandirRegular">Updated</span>
         </h2>
         <p className="font-medium text-base leading-8 text-ash">

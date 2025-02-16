@@ -52,7 +52,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="bg-[#282828] py-[60px] px-[100px] flex justify-between items-center text-white">
+      <div className="bg-raisin-black py-[60px] px-[100px] flex justify-between items-center text-white">
         <div className="flex gap-x-5 text-base leading-[32px]">
           <h3>Copyright © 2025 TokenGiver all rights reserved</h3>
           <h3>Terms & Condition</h3>

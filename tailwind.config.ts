@@ -17,9 +17,15 @@ export default {
       colors: {
         primary: "#00594C",
         ash: "#8E9BAE",
+        jade: "#34AA6D",
+        "raisin-black": "#282828",
+        jonquil: "#FED12E",
       },
       backgroundImage: {
         heroBg: "url('/hero-bg.png')",
+      },
+      boxShadow: {
+        "primary-black": "0px 0px 20px 0px rgba(18, 18, 18, 0.05)",
       },
     },
   },

@@ -4,7 +4,7 @@ import { partners } from "../utils/data";
 function StatsAndPartners() {
   return (
     <div className="pt-[347px] pb-[250px] text-center font-AgrandirBold relative">
-      <h4 className="text-2xl leading-[60px] text-[#282828] mb-[38px]">
+      <h4 className="text-2xl leading-[60px] text-raisin-black mb-[38px]">
         A leading crowdfunding of{" "}
       </h4>
 
@@ -22,6 +22,7 @@ function StatsAndPartners() {
 
       {partners.map((partner) => (
         <img
+          key={partner.id}
           src={partner.logo}
           className={`absolute ${partner.position} w-[70px] h-[70px]`}
         />

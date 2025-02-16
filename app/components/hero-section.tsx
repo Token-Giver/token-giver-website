@@ -6,12 +6,9 @@ import ArrowBrokenIcon from "../svg/ArrowBrokenIcon";
 
 function HeroSection() {
   return (
-    <div className="pt-[203px] pb-[144px] text-center relative flex justify-center">
-      <div className="absolute top-0 left-0 w-full">
-        <Navbar />
-      </div>
+    <div className="pt-[203px] pb-[144px] text-center relative flex justify-center bg-heroBg bg-cover h-[110vh] bg-center">
       <div className="flex flex-col items-center max-w-[691px]">
-        <button className="flex items-center text-primary gap-x-[10px] text-lg leading-[35px] font-semibold bg-white bg-opacity-20 hover:bg-opacity-100 py-[10.5px] px-[23px] rounded-full transition-all duration-300 ease-in-out">
+        <button className="flex items-center text-primary gap-x-[10px] text-lg leading-[35px] font-semibold bg-white bg-opacity-20 hover:bg-opacity-100 py-[10.5px] px-[23px] rounded-full">
           <PlayIcon />
           Introduction to TokenGiver Funding
           <span className="text-base font-medium font-montserrat">
