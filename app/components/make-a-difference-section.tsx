@@ -4,21 +4,21 @@ function MakeADifferenceSection() {
   return (
     <div className="py-[80px] px-[100px] flex justify-between">
       <div>
-        <h2 className="mb-[30px] font-AgrandirBold text-[40px] leading-[60px] max-w-[579px]">
+        <h2 className="mb-6 font-AgrandirBold text-3xl max-w-[579px]">
           Ready to <span className="font-AgrandirRegular">Make</span> a
           Difference?
         </h2>
-        <p className="text-base leading-8 text-ash mb-[46px] max-w-[579px]">
+        <p className="text-base leading-8 text-ash mb-6 max-w-[579px]">
           TokenGiver provides the tools and technology to make your fundraising
           efforts impactful and trustworthy.
         </p>
         <div className="flex flex-col gap-y-10">
           <div className="flex gap-x-6 items-start">
-            <div className="p-[12.5px] rounded-[10px] bg-[#F7F7F6]">
+            <div className="p-2 rounded-[10px] bg-[#F7F7F6]">
               <img src="/box.svg" alt="" />
             </div>
             <div className="font-medium max-w-[420px]">
-              <h4 className="text-lg leading-8 text-raisin-black mb-[10px]">
+              <h4 className="text-base text-raisin-black mb-2">
                 Blockchain Transparency
               </h4>
               <p className="text-ash text-sm leading-[25px]">
@@ -28,13 +28,11 @@ function MakeADifferenceSection() {
             </div>
           </div>
           <div className="flex gap-x-6 items-start">
-            <div className="p-[12.5px] rounded-[10px] bg-[#F7F7F6]">
+            <div className="p-2 rounded-[10px] bg-[#F7F7F6]">
               <img src="/users.svg" alt="" />
             </div>
             <div className="font-medium max-w-[420px]">
-              <h4 className="text-lg leading-8 text-raisin-black mb-[10px]">
-                Global Reach
-              </h4>
+              <h4 className="text-base text-raisin-black mb-2">Global Reach</h4>
               <p className="text-ash text-sm leading-[25px]">
                 Support causes worldwide with the confidence of knowing your
                 donation reaches the right hands.
@@ -42,11 +40,11 @@ function MakeADifferenceSection() {
             </div>
           </div>
           <div className="flex gap-x-6 items-start">
-            <div className="p-[12.5px] rounded-[10px] bg-[#F7F7F6]">
+            <div className="p-2 rounded-[10px] bg-[#F7F7F6]">
               <img src="/padlock.svg" alt="" />
             </div>
             <div className="font-medium max-w-[420px]">
-              <h4 className="text-lg leading-8 text-raisin-black mb-[10px]">
+              <h4 className="text-base text-raisin-black mb-2">
                 Secure Transactions
               </h4>
               <p className="text-ash text-sm leading-[25px]">
@@ -56,11 +54,11 @@ function MakeADifferenceSection() {
             </div>
           </div>
           <div className="flex gap-x-6 items-start">
-            <div className="p-[12.5px] rounded-[10px] bg-[#F7F7F6]">
+            <div className="p-2 rounded-[10px] bg-[#F7F7F6]">
               <img src="/gift.svg" alt="" />
             </div>
             <div className="font-medium max-w-[420px]">
-              <h4 className="text-lg leading-8 text-raisin-black mb-[10px]">
+              <h4 className="text-base text-raisin-black mb-2">
                 Innovative Giving
               </h4>
               <p className="text-ash text-sm leading-[25px]">

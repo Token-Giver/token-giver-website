@@ -21,6 +21,8 @@ export default {
         "raisin-black": "#282828",
         jonquil: "#FED12E",
         "dark-grey": "#55534E",
+        "foreground-secondary": "#8E9BAE",
+        "foreground-primary": "#282828",
       },
       backgroundImage: {
         heroBg: "url('/hero-bg.png')",
