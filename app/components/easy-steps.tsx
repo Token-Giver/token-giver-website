@@ -15,7 +15,7 @@ function EasySteps() {
   return (
     <div className="py-[90px] px-[100px]">
       <div className="max-w-[925px] mx-auto">
-        <h3 className="font-AgrandirBold text-[40px] leading-[60px] text-raisin-black mb-4 text-center">
+        <h3 className="font-AgrandirBold text-3xl text-raisin-black mb-4 text-center">
           Easy <span className="font-AgrandirRegular">Steps</span> You Can't
           Miss
         </h3>
@@ -37,7 +37,7 @@ function EasySteps() {
           }`}
         />
         <span
-          className={`relative z-10 py-3 px-[30px] text-sm font-medium transition-colors duration-300 rounded-full ${
+          className={`relative z-10 py-2 px-[30px] text-sm font-medium transition-colors duration-300 rounded-full ${
             currentTab === "donations"
               ? "text-[#121212] font-semibold"
               : "text-[#8E9BAE] font-medium"
@@ -57,7 +57,7 @@ function EasySteps() {
       </div>
 
       <div className="mt-[38px]">
-        <h2 className="font-AgrandirRegular text-[40px] leading-[52px] text-ash mb-[14px]">
+        <h2 className="font-AgrandirRegular text-xl text-ash mb-[14px]">
           {currentTab === "donations" ? "For Donors" : "For Fundraisers"}
         </h2>
 

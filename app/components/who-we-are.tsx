@@ -4,8 +4,8 @@ function WhoWeAre() {
   return (
     <div className="px-[100px] py-[100px]">
       <div className="flex justify-between items-center">
-        <div className="max-w-[624px]">
-          <h2 className="mb-[30px] font-AgrandirBold text-[40px] leading-[60px]">
+        <div className="max-w-[600px]">
+          <h2 className="mb-[30px] font-AgrandirBold text-3xl">
             Who <span className="font-AgrandirRegular">We</span> Are?
           </h2>
           <p className="text-base leading-8 text-ash font-medium">
@@ -19,8 +19,8 @@ function WhoWeAre() {
         </div>
         <img src="/who-we-are-illus.png" alt="" />
       </div>
-      <div className="flex justify-between mt-[140px]">
-        <h2 className="mb-[30px] font-AgrandirBold text-[40px] leading-[60px] max-w-[469px]">
+      <div className="flex justify-between mt-[100px]">
+        <h2 className="mb-[30px] font-AgrandirBold text-3xl max-w-[469px]">
           Be part of a <span className="font-AgrandirRegular">community</span>{" "}
           dedicated to making a difference.
         </h2>

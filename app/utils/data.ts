@@ -6,7 +6,7 @@ export const howToSteps = [
     description:
       "Explore verified campaigns and choose the ones closest to your heart.",
     index: 1,
-    position: "bottom-[64px] left-[500px]",
+    position: "bottom-[64px] left-[400px]",
     isReverse: true,
   },
   {
@@ -14,7 +14,7 @@ export const howToSteps = [
     description:
       "Make donations seamlessly using NFTs and TBAs, ensuring your contributions are safely tracked on the blockchain.",
     index: 2,
-    position: "bottom-[231px] left-[653px]",
+    position: "bottom-[280px] left-[500px]",
     isReverse: false,
   },
   {
@@ -32,49 +32,49 @@ export const partners = [
     name: "Starknet",
     id: "starknet",
     logo: "/starknet-facecard.svg",
-    position: "top-[162px] left-[700px]",
+    position: "top-[80px] left-[50%]",
   },
   {
     name: "Braavos",
     id: "braavos",
     logo: "/braavos-facecard.svg",
-    position: "top-[227px] right-[290px]",
+    position: "top-[20%] right-[30%]",
   },
   {
     name: "Bitcoin",
     id: "bitcoin",
     logo: "/bitcoin-facecard.svg",
-    position: "top-[437px] right-[50px]",
+    position: "top-[45%] right-[15%]",
   },
   {
     name: "Horus Labs",
     id: "horus-labs",
     logo: "/horuslabs-facecard.svg",
-    position: "top-[750px] right-[137px]",
+    position: "bottom-[20%] right-[30%]",
   },
   {
     name: "Solana",
     id: "solana",
     logo: "/solana-facecard.svg",
-    position: "top-[900px] left-[700px]",
+    position: "bottom-[10%] left-[50%]",
   },
   {
     name: "Ethereum",
     id: "ethereum",
     logo: "/eth-facecard.svg",
-    position: "top-[750px] left-[137px]",
+    position: "bottom-[20%] left-[30%]",
   },
   {
     name: "Onlydust",
     id: "onlydust",
     logo: "/onlydust-facecard.svg",
-    position: "top-[437px] left-[50px]",
+    position: "top-[45%] left-[15%]",
   },
   {
     name: "Argent",
     id: "argent",
     logo: "/argent-facecard.svg",
-    position: "top-[227px] left-[290px]",
+    position: "top-[20%] left-[30%]",
   },
 ];
 

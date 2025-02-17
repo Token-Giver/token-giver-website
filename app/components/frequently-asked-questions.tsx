@@ -1,20 +1,37 @@
+"use client";
 import FaqCard from "./ui/faq-card";
 import { faqs } from "../utils/data";
+import { useState } from "react";
 
 function FrequentlyAskedQuestions() {
+  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+
+  const toggleAccordion = (index: number) => {
+    setActiveIndex(activeIndex === index ? null : index);
+  };
+
   return (
     <div className="py-[80px] px-[100px]">
-      <h2 className="text-raisin-black font-AgrandirBold text-[40px] leading-[60px] text-center mb-[30px]">
-        Frequently <span className="font-AgrandirRegular">Asked</span> Questions
-      </h2>
-      <p className="text-ash text-base leading-8 font-medium max-w-[925px] mx-auto text-center">
-        Find quick answers to common queries in our FAQs section, designed to
-        address your most pressing questions and provide you with the
-        information you need.
-      </p>
-      <div className="flex flex-col gap-y-[26px] mt-[100px]">
-        {faqs.map((faq) => (
-          <FaqCard key={faq.index} faq={faq} />
+      <div className="mx-auto mb-8 max-w-[700px]">
+        <h2 className="text-raisin-black font-AgrandirBold text-3xl text-center mb-6">
+          Frequently <span className="font-AgrandirRegular">Asked</span>{" "}
+          Questions
+        </h2>
+        <p className="text-ash text-base leading-8 font-medium max-w-[925px] mx-auto text-center">
+          Find quick answers to common queries in our FAQs section, designed to
+          address your most pressing questions and provide you with the
+          information you need.
+        </p>
+      </div>
+
+      <div className="mx-auto max-w-[800px] space-y-4 text-sm">
+        {faqs.map((item, index) => (
+          <FaqCard
+            key={index}
+            toggleAccordion={() => toggleAccordion(index)}
+            isActive={activeIndex === index}
+            faq={item}
+          />
         ))}
       </div>
     </div>

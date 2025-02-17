@@ -6,7 +6,7 @@ function EmpoweringChangeSection() {
   return (
     <div className="p-[119px_100px_64px] h-[900px] overflow-hidden relative">
       <div className="max-w-[569px]">
-        <h2 className="mb-[30px] text-[40px] leading-[60px] tracking-[2%] font-AgrandirBold">
+        <h2 className="mb-[30px] text-3xl tracking-[2%] font-AgrandirBold">
           Empowering <span className="font-AgrandirRegular">Change</span>{" "}
           Through Innovation
         </h2>
