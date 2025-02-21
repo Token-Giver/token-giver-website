@@ -12,13 +12,15 @@ import ContributionStats from "../components/contribution-stats";
 function page() {
   return (
     <>
-      <AboutHeroSection />
-      <WhoWeAre />
-      <ContributionStats />
-      <StartCampaignBanner />
-      <BlogSection />
-      <FrequentlyAskedQuestions />
-      <NewsLetter />
+      <div className="overflow-x-hidden">
+        <AboutHeroSection />
+        <WhoWeAre />
+        <ContributionStats />
+        <StartCampaignBanner />
+        <BlogSection />
+        <FrequentlyAskedQuestions />
+        <NewsLetter />
+      </div>
     </>
   );
 }
