@@ -53,7 +53,7 @@ function StatsAndPartners() {
         />
          <img
           src="/horuslabs-facecard.svg"
-          className="absolute bottom-[20%] md:bottom-[20%] right-[15%] md:right-[30%] w-[51px] md:w-[60px] h-[51px] md:h-[60px]"
+          className="absolute bottom-[25%] md:bottom-[20%] right-[2%] md:right-[30%] w-[51px] md:w-[60px] h-[51px] md:h-[60px]"
         />
          <img
           src="/solana-facecard.svg"
