@@ -11,13 +11,12 @@ function ContributionStats() {
   return (
     <div className="px-6 sm:px-10 lg:px-[100px] pb-[65px] 2xl:max-w-[1440px] 2xl:mx-auto">
       <div className=" ">
-      <h3 className="text-center font-AgrandirBold text-6xl md:text-3xl text-primary">
-        {totalContributions}
-      </h3>
-      <p className="text-center text-base leading-8 text-raisin-black font-medium mb-6">
-        Contributions members done since 2024
-      </p>
-
+        <h3 className="text-center font-AgrandirBold text-6xl md:text-3xl text-primary">
+          {totalContributions}
+        </h3>
+        <p className="text-center text-base leading-8 text-raisin-black font-medium mb-6">
+          Contributions members done since 2024
+        </p>
       </div>
       <div className="flex h-8 gap-x-2 mb-4">
         <div

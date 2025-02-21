@@ -18,7 +18,11 @@ function WhoWeAre() {
           </p>
         </div>
         <div className="w-full lg:flex-1 lg:flex lg:justify-end">
-          <img className="w-full lg:w-5/6 " src="/who-we-are-illus.png" alt="" />
+          <img
+            className="w-full lg:w-5/6 "
+            src="/who-we-are-illus.png"
+            alt=""
+          />
         </div>
       </div>
       <div className="flex flex-wrap space-y-4 md:space-y-7 justify-between  items-center lg:pt-10">

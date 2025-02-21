@@ -3,17 +3,12 @@ import Star from "../svg/Star";
 
 function AboutHeroSection() {
   return (
-
-    
     <div className="text-center pt-[180px] flex flex-col items-center  md:px-10 lg:px-20 xl:px-[100px] 2xl:max-w-[1440px] 2xl:mx-auto">
-
       <div className="px-6">
         <h4 className="font-AgrandirRegular  text-ash text-base mb-2">
           About TokenGiver
         </h4>
-        <div>
-
-        </div>
+        <div></div>
         <h1 className="font-AgrandirBold text-[40px]  leading-[52px] sm:leading-[60px] sm:text-5xl xl:leading-[70px] max-w-[668px] mb-2 text-raisin-black">
           Where Giving Meets <span className="text-primary">Innovation</span>
         </h1>
@@ -24,7 +19,6 @@ function AboutHeroSection() {
           What exactly do we do?
         </div>
       </div>
-
 
       <div className="rounded-[10px] p-[16px] hidden  md:flex gap-x-[12px]   items-start text-left shadow-primary-black z-[3] relative bg-white">
         <div className="p-1 bg-primary rounded-[7px]">
@@ -47,11 +41,7 @@ function AboutHeroSection() {
           className="w-full rounded-[10px] hidden md:block"
           alt=""
         />
-        <img
-          src="/heromobile.png"
-          className="w-full  md:hidden"
-          alt=""
-        />
+        <img src="/heromobile.png" className="w-full  md:hidden" alt="" />
         <div className="px-6 md:px-[57px] pt-8">
           <p className="text-[18px] leading-9 md:text-base text-ash md:leading-[35px] mb-7">
             At TokenGiver, our mission is to revolutionize the world of
