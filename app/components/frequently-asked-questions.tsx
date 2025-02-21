@@ -13,7 +13,7 @@ function FrequentlyAskedQuestions() {
   return (
     <div className='py-10 sm:py-20 px-[24px] sm:px-[40px] lg:px-[100px]'>
       <div className='mx-auto mb-8 max-w-[700px]'>
-        <h2 className='text-raisin-black font-AgrandirBold text-3xl text-center mb-6'>
+        <h2 className='text-raisin-black font-AgrandirBold max-[430px]:text-[27px] text-3xl text-center mb-6'>
           Frequently <span className='font-AgrandirRegular'>Asked</span>{' '}
           Questions
         </h2>
