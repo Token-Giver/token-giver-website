@@ -13,9 +13,9 @@ function EasySteps() {
     );
   };
   return (
-    <div className='py-[90px] px-[24px] sm:px-[40px] lg:px-[100px]'>
+    <div className='max-[430px]:py-[70px] py-[90px] px-[24px] sm:px-[40px] lg:px-[100px]'>
       <div className='max-w-[925px] mx-auto'>
-        <h3 className='font-AgrandirBold text-3xl text-raisin-black mb-4 text-center'>
+        <h3 className='font-AgrandirBold max-[430px]:text-[27px] text-3xl text-raisin-black mb-4 text-center'>
           Easy <span className='font-AgrandirRegular'>Steps</span> You Can't
           Miss
         </h3>
