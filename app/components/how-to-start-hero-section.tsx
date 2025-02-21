@@ -5,7 +5,7 @@ import useDimension from '@/app/utils/hooks/useWindowDimensions';
 function HowToStartHeroSection() {
   const { width } = useDimension();
   return (
-    <div className='text-center max-[430px]:pt-20 pt-24 md:pt-[180px] flex flex-col items-center px-[24px] sm:px-[40px]  lg:px-[100px]'>
+    <div className='text-center max-[430px]:pt-20 pt-24 md:pt-[180px] flex flex-col items-center px-[24px] sm:px-[40px]  lg:px-[100px] max-w-[1440px] mx-auto'>
       <h4 className='font-AgrandirRegular text-ash text-sm sm:text-base mb-[14px]'>
         How to Start TokenGiver
       </h4>
