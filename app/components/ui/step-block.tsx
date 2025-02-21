@@ -1,5 +1,6 @@
 import { Step } from '@/app/utils/types';
 import React from 'react';
+import { HighlightedText } from './HighlightedText';
 
 function StepBlock({ step }: { step: Step }) {
   return (
@@ -39,9 +40,12 @@ function StepBlock({ step }: { step: Step }) {
       </div>
 
       <div className='text-ash font-medium max-w-[600px] flex-1 max-md:order-2'>
-        <h2 className='text-2xl font-AgrandirBold mb-3 text-raisin-black'>
-          {step.title}
-        </h2>
+        <HighlightedText
+          text={step.title}
+          highlight={step?.faintText || ''}
+          className='max-[430px]:text-xl text-2xl font-AgrandirBold mb-3 text-raisin-black'
+          highlightClassName='font-AgrandirRegular'
+        />
         <p>{step.subtext}</p>
         <ul className='list-disc ml-[30px] text-base leading-8'>
           {step.points.map((point, i) => (
