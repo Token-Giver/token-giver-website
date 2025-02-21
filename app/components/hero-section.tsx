@@ -6,13 +6,19 @@ function HeroSection() {
   return (
     <div className="pt-[200px] md:pt-[250px] pb-[144px] text-center relative flex justify-center bg-heroBg bg-cover h-[110vh] bg-center">
       <div className="flex flex-col items-center max-w-[691px]">
-        <button className="flex items-center text-primary md:gap-x-[10px] gap-x-2 text-xs md:text-base font-semibold bg-white hover:bg-opacity-100 py-2 px-[23px] rounded-full">
+        <button className="flex items-center text-primary md:gap-x-[10px] gap-x-2 text-xs md:text-base font-medium md:font-semibold bg-white hover:bg-opacity-100 py-2 px-2 md:px-[23px] rounded-full w-full md:w-[80%]">
+          
+          <div className="w-[10%]">
           <PlayIcon />
-          Introduction to TokenGiver Funding
-          <span className="text-xs md:text-base font-medium font-montserrat">
+          </div>
+          <p className="w-[100%]">Introduction to TokenGiver Funding</p>
+          <span className="text-xs md:text-base font-light font-montserrat inline-block w-[30%]">
             Read more
           </span>
+          <div className="w-[10%]">
           <ArrowBrokenIcon />
+          </div>
+          
         </button>
 
         <h1 className="text-[40px] md:text-[60px] leading-[52px] md:leading-[80px] font-bold text-white my-6 md:tracking-[2%] tracking-[1%] w-full font-AgrandirBold px-1">
