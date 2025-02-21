@@ -3,7 +3,7 @@ import BlogPostCard from "./ui/blog-post-card";
 
 function BlogSection() {
   return (
-    <div className="py-[40px] px-[100px]">
+    <div className="py-[40px] px-8 md:px-[100px]">
       <h2 className="mb-5 text-raisin-black font-AgrandirBold text-3xl">
         Stay <span className="font-AgrandirRegular">Updated</span> Always
       </h2>
@@ -11,7 +11,7 @@ function BlogSection() {
         Join our community and stay informed about the latest campaigns, success
         stories, and blockchain innovations in fundraising.
       </p>
-      <div className="grid grid-cols-3 gap-x-[17px]">
+      <div className="grid md:grid-cols-3 md:gap-x-[17px] gap-y-8">
         <BlogPostCard />
         <BlogPostCard />
         <BlogPostCard />

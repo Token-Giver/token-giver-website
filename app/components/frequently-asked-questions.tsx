@@ -11,7 +11,7 @@ function FrequentlyAskedQuestions() {
   };
 
   return (
-    <div className="py-[80px] px-[100px]">
+    <div className="py-[40px] md:py-[80px] px-8 md:px-[100px]">
       <div className="mx-auto mb-8 max-w-[700px]">
         <h2 className="text-raisin-black font-AgrandirBold text-3xl text-center mb-6">
           Frequently <span className="font-AgrandirRegular">Asked</span>{" "}

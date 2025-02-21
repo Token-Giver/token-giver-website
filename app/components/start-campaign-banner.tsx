@@ -2,8 +2,8 @@ import React from "react";
 
 function StartCampaignBanner() {
   return (
-    <div className="px-[100px] py-[60px] text-center">
-      <div className="bg-[#FEB3D2] py-[75px] w-full flex flex-col items-center rounded-[10px]">
+    <div className="md:px-[100px] py-[25px] md:py-[60px] text-center">
+      <div className="bg-[#FEB3D2] py-[30px] md:py-[75px] px-5 md:px-0 w-full flex flex-col items-center rounded-[10px]">
         <h3 className="mb-4 font-AgrandirRegular text-3xl">
           <span className="font-AgrandirBold">Start a</span> Campaign
         </h3>
