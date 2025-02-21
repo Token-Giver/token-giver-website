@@ -2,8 +2,8 @@ import React from "react";
 
 function NewsLetter() {
   return (
-    <div className="py-[86px] px-[95px] flex justify-between items-center">
-      <div className="max-w-[513px]">
+    <div className="lg:py-[86px] px-6 sm:px-10 lg:px-20 xl:px-[100px]  flex flex-col lg:flex-row gap-5 justify-between lg:items-center 2xl:max-w-[1440px] 2xl:mx-auto">
+      <div className="md:w-3/4 lg:w-1/2">
         <h2 className="text-raisin-black font-AgrandirBold text-3xl mb-6">
           Stay <span className="font-AgrandirRegular">Updated</span>
         </h2>
@@ -12,13 +12,13 @@ function NewsLetter() {
           success stories, and blockchain innovations in fundraising.
         </p>
       </div>
-      <div className="flex gap-x-[31px] items-center">
+      <div className="flex flex-col sm:flex-row gap-4 md:gap-4 items-center">
         <input
           type="text"
           placeholder="Email address"
-          className="py-2 px-[25px] text-ash w-[423px] bg-[#FAFAFA] border-[2px] border-[#0000000A] text-base rounded-[10px]"
+          className="py-2 px-[25px] text-ash w-full  bg-[#FAFAFA] border-[2px] border-[#0000000A] text-base rounded-[12px]"
         />
-        <button className="py-2 px-8 bg-primary rounded-[8px] text-base font-semibold text-white">
+        <button className="w-full sm:w-1/2 py-2 px-8 bg-primary rounded-[8px] text-base font-semibold text-white">
           Subscribe
         </button>
       </div>
