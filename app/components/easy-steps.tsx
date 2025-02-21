@@ -19,7 +19,7 @@ function EasySteps() {
           Easy <span className='font-AgrandirRegular'>Steps</span> You Can't
           Miss
         </h3>
-        <p className='text-base leading-8 text-ash mb-[30px] text-center'>
+        <p className='text-sm sm:text-base leading-8 text-ash mb-[30px] text-center'>
           TokenGiver makes fundraising and donating a seamless experience with
           cutting-edge blockchain technology.
         </p>

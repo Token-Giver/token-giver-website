@@ -23,7 +23,7 @@ function HowToStartHeroSection() {
             </span>
             Journey Today
           </h3>
-          <p className='text-dark-grey text-base leading-[30px] w-full max-w-[442px]'>
+          <p className='text-dark-grey text-sm sm:text-base leading-[30px] w-full max-w-[442px]'>
             Join TokenGiver and turn your vision into reality. Together, we can
             make a difference one donation at a time.
           </p>
@@ -31,7 +31,7 @@ function HowToStartHeroSection() {
       </div>
 
       <div className='sm:px-[57px] mt-16'>
-        <p className='text-base text-ash leading-[35px] mb-[30px]'>
+        <p className='text-sm sm:text-base text-ash leading-[35px] mb-[30px]'>
           At TokenGiver, our mission is to revolutionize the world of
           fundraising by merging the best of blockchain technology with the
           spirit of giving. We aim to create a world where every donation is not

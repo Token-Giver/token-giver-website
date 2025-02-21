@@ -17,7 +17,7 @@ function FrequentlyAskedQuestions() {
           Frequently <span className='font-AgrandirRegular'>Asked</span>{' '}
           Questions
         </h2>
-        <p className='text-ash text-base leading-8 font-medium max-w-[925px] mx-auto text-center'>
+        <p className='text-ash text-sm sm:text-base leading-8 font-medium max-w-[925px] mx-auto text-center'>
           Find quick answers to common queries in our FAQs section, designed to
           address your most pressing questions and provide you with the
           information you need.

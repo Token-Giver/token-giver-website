@@ -50,8 +50,8 @@ function StepBlock({ step }: { step: Step }) {
           className='max-[430px]:text-xl text-2xl font-AgrandirBold mb-3 text-raisin-black'
           highlightClassName='font-AgrandirRegular'
         />
-        <p>{step.subtext}</p>
-        <ul className='list-disc ml-[30px] text-base leading-8'>
+        <p className='text-sm sm:text-base mb-1'>{step.subtext}</p>
+        <ul className='list-disc ml-[30px] text-sm sm:text-base leading-8'>
           {step.points.map((point, i) => (
             <li key={i}>{point}</li>
           ))}
