@@ -24,7 +24,7 @@ function StatsAndPartners() {
         <img
           key={partner.id}
           src={partner.logo}
-          className={`absolute ${partner.position} w-[60px] h-[60px]`}
+          className={`absolute ${partner.position} w-[51px] md:w-[60px] h-[51px] md:h-[60px] none`}
         />
       ))}
     </div>

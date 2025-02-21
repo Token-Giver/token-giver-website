@@ -18,3 +18,17 @@
   src: url("/fonts/Agrandir-Regular.otf");
   weight: 400;
 }
+.reverse-none{
+  display: block;
+}
+.none{
+  display: none;
+}
+@media screen and (min-width: 600px) {
+  .none {
+    display: block;
+  }
+  .reverse-none{
+    display: none;
+  }
+}
