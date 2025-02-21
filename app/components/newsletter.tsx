@@ -7,7 +7,7 @@ function NewsLetter() {
         <h2 className="text-raisin-black font-AgrandirBold text-3xl mb-6">
           Stay <span className="font-AgrandirRegular">Updated</span>
         </h2>
-        <p className="font-medium text-base leading-7 text-ash">
+        <p className="font-medium text-sm sm:text-base leading-7 text-ash">
           Join our community and stay informed about the latest campaigns,
           success stories, and blockchain innovations in fundraising.
         </p>
