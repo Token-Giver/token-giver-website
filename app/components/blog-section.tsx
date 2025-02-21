@@ -8,7 +8,7 @@ function BlogSection() {
         <h2 className=" text-raisin-black font-AgrandirBold text-3xl">
           Stay <span className="font-AgrandirRegular">Updated</span> Always
         </h2>
-        <p className="font-medium text-base leading-8 text-ash mb-8 max-w-[624px]">
+        <p className="font-medium text-sm sm:text-base leading-8 text-ash mb-8 max-w-[624px]">
           Join our community and stay informed about the latest campaigns,
           success stories, and blockchain innovations in fundraising.
         </p>
