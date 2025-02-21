@@ -1,11 +1,8 @@
 'use client';
 
-import useDimension from '@/app/utils/hooks/useWindowDimensions';
-
 function HowToStartHeroSection() {
-  const { width } = useDimension();
   return (
-    <div className='text-center max-[430px]:pt-20 pt-24 md:pt-[180px] flex flex-col items-center px-[24px] sm:px-[40px]  lg:px-[100px] max-w-[1440px] mx-auto'>
+    <div className='text-center pt-[150px] sm:pt-[180px] flex flex-col items-center px-[24px] sm:px-[40px]  lg:px-[100px] max-w-[1440px] mx-auto'>
       <h4 className='font-AgrandirRegular text-ash text-sm sm:text-base mb-[14px]'>
         How to Start TokenGiver
       </h4>
@@ -15,15 +12,7 @@ function HowToStartHeroSection() {
         <span className='text-primary'>TokenGiver Today</span>
       </h1>
 
-      <div
-        className='w-full mt-[-12px] rounded-[10px] bg-cover bg-center max-[430px]:px-4 px-8 lg:px-14 max-[430px]:h-[530px] max-[690px]:h-[600px] h-[400px] md:h-[500px]'
-        style={{
-          backgroundImage:
-            width >= 690
-              ? "url('/how-to-start-illus.jpg')"
-              : "url('/how-to-start-illus-mobile.jpg')",
-        }}
-      >
+      <div className='w-full mt-[-12px] rounded-[10px] max-[690px]:bg-learnPageMobile bg-learnPageDesktop bg-cover bg-center max-[430px]:px-4 px-8 lg:px-14 max-[430px]:h-[530px] max-[690px]:h-[600px] h-[400px] md:h-[500px]'>
         <div className='max-[690px]:max-w-full max-[900px]:max-w-[49%] lg:max-w-[45%] text-left max-[690px]:mt-12 mt-14 md:mt-24'>
           <h3 className='font-AgrandirBold text-2xl sm:text-3xl text-raisin-black mb-4'>
             Start Your

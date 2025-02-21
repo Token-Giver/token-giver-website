@@ -1,6 +1,6 @@
 import { Step } from '@/app/utils/types';
 import React from 'react';
-import { HighlightedText } from './HighlightedText';
+import { HighlightedText } from './highlightedText';
 
 function StepBlock({ step }: { step: Step }) {
   return (

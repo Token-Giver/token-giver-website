@@ -33,6 +33,8 @@ export default {
       },
       backgroundImage: {
         heroBg: "url('/hero-bg.png')",
+        learnPageDesktop: "url('/how-to-start-illus.jpg')",
+        learnPageMobile: "url('/how-to-start-illus-mobile.jpg')",
       },
       boxShadow: {
         'primary-black': '0px 0px 20px 0px rgba(18, 18, 18, 0.05)',
