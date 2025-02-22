@@ -20,7 +20,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body className="antialiased relative">
+      <body className="antialiased relative w-[100vw] overflow-x-hidden">
         <div className="absolute top-0 left-0 w-full z-[2]">
           <JoinWaitlist />
           <Navbar />
