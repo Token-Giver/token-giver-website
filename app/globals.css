@@ -8,6 +8,10 @@
   transition: all 0.4s ease-in-out;
 }
 
+body {
+  position: relative;
+}
+
 @font-face {
   font-family: AgrandirBold;
   src: url("/fonts/Agrandir-TextBold.otf");
