@@ -7,7 +7,7 @@ function StartCampaignBanner() {
         <h3 className="mb-4 font-AgrandirRegular text-3xl">
           <span className="font-AgrandirBold">Start a</span> Campaign
         </h3>
-        <p className="mb-10 text-xl max-w-[638px]">
+        <p className="mb-10 text-[16px] md:text-xl max-w-[638px]">
           <span className="font-semibold">Looking to make a difference?</span>{" "}
           Launch your fundraising campaign on{" "}
           <span className="font-semibold">TokenGiver</span> and tap into the

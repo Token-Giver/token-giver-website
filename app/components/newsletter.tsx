@@ -12,7 +12,7 @@ function NewsLetter() {
           success stories, and blockchain innovations in fundraising.
         </p>
       </div>
-      <div className="flex flex-col sm:flex-row gap-4 md:gap-4 items-center">
+      <div className="flex flex-col sm:flex-row gap-4 md:gap-4 items-center w-full">
         <input
           type="text"
           placeholder="Email address"
