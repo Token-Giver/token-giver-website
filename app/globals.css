@@ -22,17 +22,24 @@ body {
   src: url("/fonts/Agrandir-Regular.otf");
   weight: 400;
 }
-.reverse-none{
-  display: block;
-}
 .none{
   display: none;
 }
-@media screen and (min-width: 600px) {
+.reverse-none{
+  display: block;
+}
+
+.none-flex{
+  display: none;
+}
+@media screen and (min-width: 1000px) {
   .none {
     display: block;
   }
   .reverse-none{
     display: none;
+  }
+  .none-flex{
+    display: flex;
   }
 }

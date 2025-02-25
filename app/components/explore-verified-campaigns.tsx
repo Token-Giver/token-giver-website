@@ -41,9 +41,9 @@ function ExploreVerifiedCampaigns() {
         })}
       </div>
 
-      <div className="flex flex-col md:flex-row md:justify-between md:gap-x-[42px] md:items-stretch mt-[85px] mb-[47px]">
+      <div className="flex flex-col lg:flex-row lg:justify-between lg:gap-x-[42px] lg:items-stretch mt-[85px] mb-[47px]">
         <img src="/campaign-banner-example.png" className="w-[619px]" alt="" />
-        <div className="flex-1 max-w-[579px] md:mt-0 mt-[30px]">
+        <div className="flex-1 max-w-[579px] lg:mt-0 mt-[30px]">
           <h2 className="max-w-[454px] font-AgrandirBold text-lg text-raisin-black mb-[10px]">
             Donations for the upcoming Inter-house Sports Competition
           </h2>
@@ -55,7 +55,7 @@ function ExploreVerifiedCampaigns() {
           <div className="w-full h-[7px] bg-[#EFEFEF] rounded-full mb-4">
             <div className="w-[40%] bg-jade h-full rounded-full"></div>
           </div>
-          <div className="flex gap-x-[70px] md:gap-x-[98px]">
+          <div className="flex gap-x-[70px] lg:gap-x-[98px]">
             <div className="flex flex-col gap-y-1">
               <h3 className="font-semibold text-base text-black">$6,340</h3>
               <h4 className="text-sm text-[#A1A1A1] font-medium">
@@ -78,7 +78,7 @@ function ExploreVerifiedCampaigns() {
       </div>
 
       <div className="flex flex-col">
-      <div className="mb-[21px] flex gap-x-[10px] w-full self-end ml-auto justify-end">
+      <div className="mb-[21px] gap-x-[10px] w-full self-end ml-auto justify-end none-flex">
         <button className="p-3 rounded-full inline-block justify-center items-center text-[#0000004D] bg-[#F7F7F6]">
           <ArrowLeft />
         </button>
@@ -87,7 +87,7 @@ function ExploreVerifiedCampaigns() {
         </button>
       </div>
 
-        <div className="w-full grid md:grid-cols-4 gap-x-5">
+        <div className="w-full grid lg:grid-cols-4 gap-x-5">
           <CampaignCard />
           <CampaignCard />
           <CampaignCard />
