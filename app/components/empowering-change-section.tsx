@@ -4,9 +4,9 @@ import HowToCard from "./ui/how-to-card";
 
 function EmpoweringChangeSection() {
   return (
-    <div className="p-[119px_100px_64px] h-[900px] overflow-hidden relative">
-      <div className="max-w-[569px]">
-        <h2 className="mb-[30px] text-3xl tracking-[2%] font-AgrandirBold">
+    <div className="p-[40px_30px] md:p-[119px_100px_64px] h-[900px] overflow-hidden relative">
+      <div className="w-full md:max-w-[569px]">
+        <h2 className="mb-[30px] text-[30px] md:text-3xl tracking-[2%] font-AgrandirBold">
           Empowering <span className="font-AgrandirRegular">Change</span>{" "}
           Through Innovation
         </h2>
@@ -19,13 +19,16 @@ function EmpoweringChangeSection() {
         </p>
       </div>
 
+      <div className="none">
       {howToSteps.map((step) => (
         <HowToCard howTo={step} key={step.index} />
       ))}
+      </div>
+      
 
       <img
         src="/mindaro-fog.png"
-        className="absolute bottom-[-47px] z-[-1] left-0 right-0 w-[1792px]"
+        className="absolute md:bottom-[-47px] bottom-[0px] z-[-1] left-0 right-0 md:w-[1792px] w-[1000px]"
         alt=""
       />
       <img

@@ -2,7 +2,7 @@ import React from "react";
 
 function TestimonialCard() {
   return (
-    <div className="p-5 w-[295px]">
+    <div className="md:p-5 w-[100%] md:mx-0 lg:w-[295px] px-8">
       <div className="flex gap-x-[10px] mb-5">
         <img src="/user-pic.svg" alt="" />
         <div>

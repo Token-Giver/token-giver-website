@@ -7,7 +7,7 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 function ExploreVerifiedCampaigns() {
   const [currentTheme, setCurrentTheme] = useState("arts-crafts");
   return (
-    <div className="py-[80px] px-[100px]">
+    <div className="py-[80px] px-4 md:px-[100px]">
       <div className="max-w-[925px] mx-auto  text-center">
         <h2 className="mb-4 font-AgrandirBold text-3xl">
           Explore <span className="font-AgrandirRegular">Verified</span>{" "}
@@ -19,13 +19,13 @@ function ExploreVerifiedCampaigns() {
           thoroughly vetted to guarantee credibility and impact.
         </p>
       </div>
-      <div className="overflow-scroll w-full flex gap-x-5 font-AgrandirBold justify-center">
+      <div className="overflow-x-auto whitespace-nowrap w-full flex gap-x-5 font-AgrandirBold justify-center pl-12 md:pl-0">
         {campaignThemes.map((theme) => {
           let isActive = currentTheme === theme.name;
           return (
             <button
               key={theme.name}
-              className={`capitalize w-fit flex items-center gap-x-3 justify-center py-3 text-sm px-[42px] hover:bg-primary hover:text-white rounded-full ${
+              className={`capitalize w-fit flex items-center gap-x-3 justify-center py-1 md:py-3 text-sm px-[20px] md:px-[42px] hover:bg-primary hover:text-white rounded-full ${
                 isActive
                   ? "bg-[#00594C] text-white"
                   : "bg-[#F7F7F6] text-raisin-black"
@@ -41,9 +41,9 @@ function ExploreVerifiedCampaigns() {
         })}
       </div>
 
-      <div className="flex justify-between gap-x-[42px] items-stretch mt-[85px] mb-[47px]">
+      <div className="flex flex-col lg:flex-row lg:justify-between lg:gap-x-[42px] lg:items-stretch mt-[85px] mb-[47px]">
         <img src="/campaign-banner-example.png" className="w-[619px]" alt="" />
-        <div className="flex-1 max-w-[579px]">
+        <div className="flex-1 max-w-[579px] lg:mt-0 mt-[30px]">
           <h2 className="max-w-[454px] font-AgrandirBold text-lg text-raisin-black mb-[10px]">
             Donations for the upcoming Inter-house Sports Competition
           </h2>
@@ -55,7 +55,7 @@ function ExploreVerifiedCampaigns() {
           <div className="w-full h-[7px] bg-[#EFEFEF] rounded-full mb-4">
             <div className="w-[40%] bg-jade h-full rounded-full"></div>
           </div>
-          <div className="flex gap-x-[98px]">
+          <div className="flex gap-x-[70px] lg:gap-x-[98px]">
             <div className="flex flex-col gap-y-1">
               <h3 className="font-semibold text-base text-black">$6,340</h3>
               <h4 className="text-sm text-[#A1A1A1] font-medium">
@@ -78,15 +78,16 @@ function ExploreVerifiedCampaigns() {
       </div>
 
       <div className="flex flex-col">
-        <div className="self-end mb-[21px] flex gap-x-[10px] items-center">
-          <button className="p-3 rounded-full flex justify-center items-center text-[#0000004D] bg-[#F7F7F6]">
-            <ArrowLeft />
-          </button>
-          <button className="p-3 rounded-full flex justify-center items-center bg-primary text-white">
-            <ArrowRight />
-          </button>
-        </div>
-        <div className="w-full grid grid-cols-4 gap-x-5">
+      <div className="mb-[21px] gap-x-[10px] w-full self-end ml-auto justify-end none-flex">
+        <button className="p-3 rounded-full inline-block justify-center items-center text-[#0000004D] bg-[#F7F7F6]">
+          <ArrowLeft />
+        </button>
+        <button className="p-3 rounded-full inline-block justify-center items-center bg-primary text-white">
+          <ArrowRight />
+        </button>
+      </div>
+
+        <div className="w-full grid lg:grid-cols-4 gap-x-5">
           <CampaignCard />
           <CampaignCard />
           <CampaignCard />
