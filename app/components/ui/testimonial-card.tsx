@@ -2,11 +2,11 @@ import React from "react";
 
 function TestimonialCard() {
   return (
-    <div className="md:p-5 w-[100%] md:mx-0 lg:w-[295px] px-8">
-      <div className="flex gap-x-[10px] mb-5">
+    <div className="md:p-5 w-[100%] md:mx-0 lg:w-[295px] p-2">
+      <div className="flex gap-x-[10px] mb-3 md:mb-5">
         <img src="/user-pic.svg" alt="" />
         <div>
-          <h3 className="mb-[5px] text-black text-base font-medium">
+          <h3 className="md:mb-[5px] text-black text-sm md:text-base font-medium">
             Herald Jephson
           </h3>
           <h4 className="text-xs leading-[18px] text-ash">Stacknet, USA</h4>

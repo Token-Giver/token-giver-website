@@ -7,19 +7,19 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 function ExploreVerifiedCampaigns() {
   const [currentTheme, setCurrentTheme] = useState("arts-crafts");
   return (
-    <div className="py-[80px] px-4 md:px-[100px]">
+    <div className="md:py-[70px] px-6 md:px-[100px]">
       <div className="max-w-[925px] mx-auto  text-center">
         <h2 className="mb-4 font-AgrandirBold text-3xl">
           Explore <span className="font-AgrandirRegular">Verified</span>{" "}
           Campaigns
         </h2>
-        <p className="text-base leading-8 text-ash mb-[38px]">
+        <p className="text-sm leading-7 md:text-base md:leading-8 text-ash">
           Discover causes that resonate with you be it disaster relief,
           education, health, or environmental sustainability. Each campaign is
           thoroughly vetted to guarantee credibility and impact.
         </p>
       </div>
-      <div className="overflow-x-auto whitespace-nowrap w-full flex gap-x-5 font-AgrandirBold justify-center pl-12 md:pl-0">
+      <div className="overflow-x-auto whitespace-nowrap w-full flex gap-x-3 md:gap-x-5 font-AgrandirBold mt-6 md:mt-[38px]">
         {campaignThemes.map((theme) => {
           let isActive = currentTheme === theme.name;
           return (
@@ -41,13 +41,13 @@ function ExploreVerifiedCampaigns() {
         })}
       </div>
 
-      <div className="flex flex-col lg:flex-row lg:justify-between lg:gap-x-[42px] lg:items-stretch mt-[85px] mb-[47px]">
+      <div className="flex flex-col lg:flex-row lg:justify-between lg:gap-x-[42px] lg:items-stretch mt-12 mb-7 md:mt-[85px] md:mb-[47px]">
         <img src="/campaign-banner-example.png" className="w-[619px]" alt="" />
         <div className="flex-1 max-w-[579px] lg:mt-0 mt-[30px]">
-          <h2 className="max-w-[454px] font-AgrandirBold text-lg text-raisin-black mb-[10px]">
+          <h2 className="max-w-[454px] font-AgrandirBold text-base md:text-lg text-raisin-black mb-[10px]">
             Donations for the upcoming Inter-house Sports Competition
           </h2>
-          <p className="text-sm leading-8 text-ash mb-6">
+          <p className="text-sm leading-7 md:leading-8 text-ash mb-6">
             We are currently organizing a fundraising to assist us in getting
             sport equipment's and planning for the event. Supporting
             underprivileged children with access to quality education.
@@ -55,37 +55,47 @@ function ExploreVerifiedCampaigns() {
           <div className="w-full h-[7px] bg-[#EFEFEF] rounded-full mb-4">
             <div className="w-[40%] bg-jade h-full rounded-full"></div>
           </div>
-          <div className="flex gap-x-[70px] lg:gap-x-[98px]">
+          <div className="flex gap-x-[40px] lg:gap-x-[98px]">
             <div className="flex flex-col gap-y-1">
-              <h3 className="font-semibold text-base text-black">$6,340</h3>
-              <h4 className="text-sm text-[#A1A1A1] font-medium">
+              <h3 className="font-semibold text-sm md:text-base text-black">
+                $6,340
+              </h3>
+              <h4 className="text-xs md:text-sm text-[#A1A1A1] font-medium">
                 Total Raised
               </h4>
             </div>
             <div className="flex flex-col gap-y-1">
-              <h3 className="font-semibold text-base text-black">$12,000</h3>
-              <h4 className="text-sm text-[#A1A1A1] font-medium">Target</h4>
+              <h3 className="font-semibold text-sm md:text-base text-black">
+                $12,000
+              </h3>
+              <h4 className="text-xs md:text-sm text-[#A1A1A1] font-medium">
+                Target
+              </h4>
             </div>
             <div className="flex flex-col gap-y-1">
-              <h3 className="font-semibold text-base text-black">40</h3>
-              <h4 className="text-sm text-[#A1A1A1] font-medium">Days left</h4>
+              <h3 className="font-semibold text-sm md:text-base text-black">
+                40
+              </h3>
+              <h4 className="text-xs md:text-sm text-[#A1A1A1] font-medium">
+                Days left
+              </h4>
             </div>
           </div>
-          <button className="py-3 px-[30px] rounded-full text-sm text-raisin-black font-semibold font-montserrat border-[1px] border-[#808080] mt-[25px]">
+          <button className="py-2 md:py-3 px-[30px] rounded-full text-sm text-raisin-black font-semibold font-montserrat border-[1px] border-[#808080] mt-[25px]">
             Learn More
           </button>
         </div>
       </div>
 
       <div className="flex flex-col">
-      <div className="mb-[21px] gap-x-[10px] w-full self-end ml-auto justify-end none-flex">
-        <button className="p-3 rounded-full inline-block justify-center items-center text-[#0000004D] bg-[#F7F7F6]">
-          <ArrowLeft />
-        </button>
-        <button className="p-3 rounded-full inline-block justify-center items-center bg-primary text-white">
-          <ArrowRight />
-        </button>
-      </div>
+        <div className="mb-[21px] gap-x-[10px] w-full self-end ml-auto justify-end none-flex">
+          <button className="p-3 rounded-full inline-block justify-center items-center text-[#0000004D] bg-[#F7F7F6]">
+            <ArrowLeft />
+          </button>
+          <button className="p-3 rounded-full inline-block justify-center items-center bg-primary text-white">
+            <ArrowRight />
+          </button>
+        </div>
 
         <div className="w-full grid lg:grid-cols-4 gap-x-5">
           <CampaignCard />
