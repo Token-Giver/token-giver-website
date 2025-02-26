@@ -4,21 +4,17 @@ import ArrowBrokenIcon from "../svg/ArrowBrokenIcon";
 
 function HeroSection() {
   return (
-    <div className="pt-[200px] md:pt-[250px] pb-[144px] text-center relative flex justify-center bg-heroBg bg-cover h-[110vh] bg-center w-[100%]">
+    <div className="pt-[200px] md:pt-[320px] pb-[144px] text-center relative flex justify-center bg-heroBg bg-cover h-[110vh] bg-center w-[100%]">
       <div className="flex flex-col items-center max-w-[691px]">
-        <button className="flex items-center text-primary md:gap-x-2 gap-x-1 text-xs md:text-base font-medium md:font-semibold bg-white hover:bg-opacity-100 py-2 px-4 md:px-[23px] rounded-full w-[90%] md:w-[80%]">
-          
-          <div className="w-[5%]">
-          <PlayIcon />
+        <button className="flex items-center text-primary md:gap-x-[10px] gap-x-[6px] text-xs md:text-base font-semibold bg-white hover:bg-opacity-100 py-2 px-4 md:px-[23px] rounded-full w-fit">
+          <div className="">
+            <PlayIcon />
           </div>
-          <p className="w-[85%] md:w-[69%]">Introduction to TokenGiver Funding</p>
-          <span className="text-xs md:text-base font-light font-montserrat inline-block w-[30%]">
+          <p className="shrink-0">Introduction to TokenGiver Funding</p>
+          <span className="font-light font-montserrat shrink-0 flex gap-x-[6px] items-center">
             Read more
+            <ArrowBrokenIcon />
           </span>
-          <div className="w-[10%]">
-          <ArrowBrokenIcon />
-          </div>
-          
         </button>
 
         <h1 className="text-[40px] md:text-[60px] leading-[52px] md:leading-[80px] font-bold text-white my-6 md:tracking-[2%] tracking-[1%] w-full font-AgrandirBold px-1">

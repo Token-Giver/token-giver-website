@@ -3,12 +3,12 @@ import Star from "../svg/Star";
 
 function AboutHeroSection() {
   return (
-    <div className="text-center pt-[180px] flex flex-col items-center  md:px-10 lg:px-20 xl:px-[100px] 2xl:max-w-[1440px] 2xl:mx-auto">
+    <div className="text-center pt-[140px] md:pt-[180px] pb-10 flex flex-col items-center  md:px-10 lg:px-20 xl:px-[100px] 2xl:max-w-[1440px] 2xl:mx-auto">
       <div className="px-6">
         <h4 className="font-AgrandirRegular  text-ash text-sm sm:text-base mb-2">
           About TokenGiver
         </h4>
-        <h1 className="font-AgrandirBold text-4xl  leading-[52px] sm:leading-[60px] sm:text-5xl xl:leading-[70px] max-w-[668px] mb-2 text-raisin-black">
+        <h1 className="font-AgrandirBold text-3xl sm:text-4xl max-w-[668px] mb-2 text-raisin-black">
           Where Giving Meets <span className="text-primary">Innovation</span>
         </h1>
         <div className="py-[15px] px-3 flex justify-center mx-auto items-center gap-x-[10px] text-sm text-black shadow-primary-black rounded-[12px] w-fit mb-6">
@@ -19,7 +19,7 @@ function AboutHeroSection() {
         </div>
       </div>
 
-      <div className="rounded-[10px] p-[16px] hidden  md:flex gap-x-[12px]   items-start text-left shadow-primary-black z-[3] relative bg-white">
+      <div className="rounded-[10px] p-4 hidden  md:flex gap-x-[12px]   items-start text-left shadow-primary-black z-[3] relative bg-white">
         <div className="p-1 bg-primary rounded-[7px]">
           <img src="/logo-white.svg" alt="" />
         </div>

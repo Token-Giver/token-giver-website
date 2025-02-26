@@ -9,14 +9,14 @@ function CampaignCard() {
         className="rounded-[10px] w-full mb-[14px]"
         alt="campaign banner"
       />
-      <h3 className="mb-[5px] text-raisin-black text-base font-AgrandirBold">
+      <h3 className="mb-[5px] text-raisin-black text-sm md:text-base font-AgrandirBold">
         Sanpidro Art Gallery & Show
       </h3>
-      <h4 className="text-ash flex gap-2 items-center mb-5">
+      <h4 className="text-ash flex gap-2 items-center mb-3 md:mb-5 text-sm">
         <MapPin size={16} /> Kigali, Rwanda.
       </h4>
 
-      <div className="w-full h-[7px] bg-[#EFEFEF] rounded-full mb-5">
+      <div className="w-full h-[7px] bg-[#EFEFEF] rounded-full mb-3 md:mb-5">
         <div className="w-[40%] bg-jade h-full rounded-full"></div>
       </div>
 

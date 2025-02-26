@@ -2,13 +2,13 @@ import React from "react";
 
 function WhoWeAre() {
   return (
-    <div className="px-6 md:px-10 lg:px-20 xl:px-[100px] py-16 md:py-[100px] space-y-10 sm:space-y-12 lg:space-y-20 2xl:max-w-[1440px] 2xl:mx-auto">
+    <div className="px-6 md:px-10 lg:px-20 xl:px-[100px] py-10 md:py-10 gap-y-10 sm:gap-y-12 lg:gap-y-20 2xl:max-w-[1440px] 2xl:mx-auto flex flex-col">
       <div className="flex flex-col lg:flex-row justify-between items-center gap-5">
-        <div className=" py-4 space-y-7 lg:flex-1">
+        <div className="py-6 space-y-5 md:space-y-7 lg:flex-1">
           <h2 className=" font-AgrandirBold text-3xl">
             Who <span className="font-AgrandirRegular">We</span> Are?
           </h2>
-          <p className="text-base leading-8 text-ash font-medium">
+          <p className="text-sm leading-7 md:text-base md:leading-8 text-ash font-medium">
             TokenGiver is a forward-thinking fundraising platform built on the
             principles of trust, transparency, and innovation. By leveraging
             NFTs and Token Bound Accounts (TBAs), we redefine how people
@@ -25,12 +25,12 @@ function WhoWeAre() {
           />
         </div>
       </div>
-      <div className="flex flex-wrap space-y-4 md:space-y-7 justify-between  items-center lg:pt-10">
-        <h2 className=" font-AgrandirBold text-3xl leading-[36px] sm:leading-[48px] xl:text-[40px] xl:leading-[60px]  sm:w-5/6  lg:w-2/3 xl:w-1/2">
+      <div className="flex md:flex-row flex-col gap-y-7 items-start justify-between">
+        <h2 className=" font-AgrandirBold text-xl leading-[36px] sm:leading-[48px] xl:text-[40px] xl:leading-[60px] max-w-[469px]">
           Be part of a <span className="font-AgrandirRegular">community</span>{" "}
           dedicated to making a difference.
         </h2>
-        <p className=" text-base leading-8 text-ash font-medium  w-full text-left lg:w-5/6 xl:w-1/2">
+        <p className="text-sm leading-7 md:text-base md:leading-8 text-ash font-medium text-left mt-0 max-w-[624px]">
           With TokenGiver, your donations are more than just
           contributions—they're investments in a better tomorrow.
         </p>

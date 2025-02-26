@@ -3,7 +3,7 @@ import TestimonialCard from "./ui/testimonial-card";
 
 function Testimonials() {
   return (
-    <div className="py-[80px] px-8 md:px-[100px]">
+    <div className="py-5 md:py-[80px] px-6 md:px-[100px]">
       <h2 className="font-AgrandirBold text-3xl text-raisin-black mb-7 text-center">
         What <span className="font-AgrandirRegular">Folks</span> Are Saying{" "}
       </h2>
